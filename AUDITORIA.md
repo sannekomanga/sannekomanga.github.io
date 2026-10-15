@@ -1,6 +1,6 @@
 # AUDITORÍA DEL REPOSITORIO
 
-**Fecha:** 2026-10-14 05:38 UTC  
+**Fecha:** 2026-10-15 05:38 UTC  
 **Auditor:** Auditor Automático v2.1  
 **Modo:** Solo lectura — Repositorio completo  
 **Estado:** COMPLETADA CON LIMITACIONES
@@ -8,7 +8,7 @@
 ## Resumen
 
 La revisión local (gitleaks + semgrep + heurísticas) se ejecutó correctamente.  
-El análisis de IA no pudo completarse: `Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg1bCe3ZXL6Wik2d9WZUn'}`
+El análisis de IA no pudo completarse: `Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg3UziAqaQxxZeWsL9onv'}`
 
 ## Métricas
 
@@ -46,8 +46,6 @@ Las ejecuciones posteriores añadirán una entrada con fecha, resumen y hallazgo
 ---
 
 **Regla:** este auditor informa; no modifica archivos del proyecto salvo `AUDITORIA.md`.
-### 2026-10-09 05:28 UTC
-- Archivos: 15 | Hallazgos locales: 3 | Evento: schedule
 ### 2026-10-10 05:26 UTC
 - Archivos: 15 | Hallazgos locales: 3 | Evento: schedule
 ### 2026-10-11 05:26 UTC
@@ -57,4 +55,6 @@ Las ejecuciones posteriores añadirán una entrada con fecha, resumen y hallazgo
 ### 2026-10-13 05:30 UTC
 - Archivos: 15 | Hallazgos locales: 3 | Evento: schedule
 ### 2026-10-14 05:38 UTC
+- Archivos: 15 | Hallazgos locales: 3 | Evento: schedule
+### 2026-10-15 05:38 UTC
 - Archivos: 15 | Hallazgos locales: 3 | Evento: schedule
